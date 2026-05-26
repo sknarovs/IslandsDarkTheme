@@ -18,16 +18,6 @@ A dark color theme for IntelliJ IDEA and Notepad++.
 | Error | ![#F75464](https://via.placeholder.com/12/F75464/F75464) | `#F75464` |
 
 ## Installation
-
-### IntelliJ IDEA
-
-1. Copy `Islands_Dark.icls` to your IDE colors directory:
-   - **Windows:** `%APPDATA%\JetBrains\<Product><Version>\colors\`
-   - **macOS:** `~/Library/Application Support/JetBrains/<Product><Version>/colors/`
-   - **Linux:** `~/.config/JetBrains/<Product><Version>/colors/`
-2. Restart the IDE.
-3. Go to **Settings → Editor → Color Scheme**, select **Islands Dark**.
-
 ### Notepad++
 
 1. Open Notepad++.
