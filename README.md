@@ -1,6 +1,6 @@
 # Islands Dark
 
-A dark color theme for IntelliJ IDEA and Notepad++.
+A dark color theme from IntelliJ IDEA for Notepad++.
 
 ## Palette
 
@@ -34,7 +34,6 @@ Alternatively, copy `IslandsDark.xml` directly into your Notepad++ themes direct
 
 The recommended font is **JetBrains Mono**. If it is not installed, the editor will fall back to its default monospace font.
 
-- **IntelliJ:** Go to **Settings → Editor → Font** and set **JetBrains Mono**. The IDE automatically falls back to the system monospace font if JetBrains Mono is unavailable.
 - **Notepad++:** The theme sets **JetBrains Mono** as the default font. If JetBrains Mono is not installed, Notepad++ will fall back to its global font setting (**Consolas** on Windows by default). To set JetBrains Mono manually: go to **Settings → Style Configurator**, select **Islands Dark**, pick the **Default Style** entry, and change the font.
 
 ## License
