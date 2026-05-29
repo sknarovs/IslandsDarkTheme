@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<application xmlns="http://islands.dark/schema"
+             xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+             xsi:schemaLocation="http://islands.dark/schema sample.xsd">
+
+    <metadata>
+        <name>Islands Dark</name>
+        <version>1.0.0</version>
+        <author>Islands Dark Team</author>
+        <description>A dark color theme for code editors</description>
+    </metadata>
+
+    <colors>
+        <color name="background" value="#191A1C" />
+        <color name="foreground" value="#BCBEC4" />
+        <color name="keyword" value="#CF8E6D" />
+        <color name="string" value="#6AAB73" />
+        <color name="number" value="#2AACB8" />
+        <color name="comment" value="#7A7E85" />
+    </colors>
+
+    <config enabled="true" maxRetries="3">
+        <property key="theme" value="dark" />
+        <property key="font" value="JetBrains Mono" />
+    </config>
+
+    <!-- This is a sample XML file -->
+    <![CDATA[
+        Raw text content here <not parsed>
+    ]]>
+
+</application>

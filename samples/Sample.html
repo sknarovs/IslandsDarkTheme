@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Islands Dark Theme Sample</title>
+    <style>
+        body { background: #191a1c; color: #bcbec4; }
+    </style>
+</head>
+<body>
+    <header id="main-header" class="site-header">
+        <h1>Welcome to Islands Dark</h1>
+        <nav>
+            <a href="#about">About</a>
+            <a href="#features">Features</a>
+        </nav>
+    </header>
+
+    <main id="content">
+        <section class="highlight">
+            <h2>About</h2>
+            <p>Sample <strong>HTML</strong> page &mdash; testing <em>entities</em>.</p>
+            <img src="logo.png" alt="Logo" width="200" height="100" />
+        </section>
+
+        <section data-section="features">
+            <h2>Features</h2>
+            <ul>
+                <li>Dark background</li>
+                <li>Syntax highlighting</li>
+                <li>Multiple languages</li>
+            </ul>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Islands Dark</p>
+    </footer>
+
+    <script>
+        document.querySelectorAll('nav a').forEach(link => {
+            link.addEventListener('click', () => console.log('clicked'));
+        });
+    </script>
+</body>
+</html>

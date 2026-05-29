@@ -1,0 +1,51 @@
+name: Islands Dark
+version: "1.0.0"
+author: Islands Dark Team
+description: A dark color theme for code editors
+
+colors:
+  background: "#191A1C"
+  foreground: "#BCBEC4"
+  keyword: "#CF8E6D"
+  string: "#6AAB73"
+  number: "#2AACB8"
+  comment: "#7A7E85"
+  function: "#56A8F5"
+  constant: "#C77DBB"
+  preprocessor: "#B3AE60"
+  error: "#F75464"
+
+editor:
+  font:
+    family: JetBrains Mono
+    size: 14
+  line_height: 1.6
+  tab_size: 4
+  insert_spaces: true
+
+languages:
+  - name: Java
+    extensions: [".java"]
+    enabled: true
+  - name: Python
+    extensions: [".py"]
+    enabled: true
+  - name: JavaScript
+    extensions: [".js", ".mjs"]
+    enabled: true
+  - name: TypeScript
+    extensions: [".ts", ".tsx"]
+    enabled: true
+  - name: Go
+    extensions: [".go"]
+    enabled: true
+  - name: Rust
+    extensions: [".rs"]
+    enabled: true
+
+overrides:
+  dark_mode: true
+  transparency: 0.95
+  animations:
+    enabled: true
+    duration: 200

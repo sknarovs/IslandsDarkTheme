@@ -1,0 +1,50 @@
+:root {
+    --primary-color: #56a8f5;
+    --bg-color: #191a1c;
+    --text-color: #bcbec4;
+    --accent: #cf8e6d;
+    --font-size: 16px;
+}
+
+@media (min-width: 768px) and (prefers-color-scheme: dark) {
+    body {
+        background-color: var(--bg-color);
+        color: var(--text-color);
+        font-family: "Segoe UI", Tahoma, sans-serif;
+        line-height: 1.6;
+    }
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+.container:hover {
+    opacity: 0.9;
+}
+
+.container > .title {
+    color: var(--accent);
+    font-size: var(--font-size);
+    text-decoration: underline !important;
+}
+
+#main-content {
+    display: flex;
+    flex-direction: column;
+}
+
+#main-content::before {
+    content: "";
+    display: block;
+    height: 2px;
+    background: linear-gradient(90deg, #6aab73, #2aacb8);
+}
+
+@keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
